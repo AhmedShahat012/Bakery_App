@@ -1,0 +1,278 @@
+
+body{
+    margin: 0;
+}
+*{
+    margin: 0; 
+}
+
+
+.home{
+    background-color: red;
+    height: 100vh;
+    overflow: auto;
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.282);
+    position: fixed;
+    width: 100%;
+    /* right:0 ;
+    top: 0;
+    left: 0; */
+}
+.navbar img{
+    width: 150px;
+    float: left;
+    padding: 30px 20px 0;
+
+}
+.navbar ul{
+    
+    float: right;
+    color: white;
+    list-style-type: none;
+   
+}
+.clear{
+    clear: both;
+}
+.navbar ul li{
+    float: left;
+    padding: 30px 20px 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.content{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+    line-height: 50px;
+    width: fit-content;
+}
+
+.btn{
+    color: white;
+    padding: 15px 28px;
+    letter-spacing: 0;
+    font-family: 'Nucleo Outline' !important;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+.btn1{
+    background-color: rgb(49, 17, 17) ;
+    border: 2px solid transparent;
+}
+/*----------------------------------*/
+
+.section2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px;
+}
+.img{
+    float: left;
+    padding-right: 60px;
+}
+.pra{
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+i{
+    background-color: rgba(42, 27, 27, 0.822);
+    border-radius: 50%;
+    padding-top: 4px;
+    
+}
+li img{
+    width: 20px;
+}
+.con .clr{
+    clear: both;
+}
+/* ------------------------------- */
+.section3{
+    background-color: rgb(242, 242, 242);
+     width: 100%; 
+     height: 600px;
+    /* padding-left: 67.4px;
+    padding-right: 67.6px; */
+    margin-bottom: 80px;
+}
+ .sec3_1{
+    float: left;
+    
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.sec3_2 img{
+    width:600px;
+    margin-top: 50px;
+
+}
+p{
+    padding: 20px 0;
+}
+
+.pr{
+    width: 500px;
+}
+/*-------------------------------------------*/
+.section4{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+.sec4_1{
+    text-align: center;
+   
+}
+.sec4_1 h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec4_1 p{
+    font-size: 20px;
+}
+.items{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.inner{
+    background-color: burlywood;
+}
+.section4 .container{
+    width: 90%;
+    margin: auto;
+    
+}
+.sec4_2 h4{
+    text-align: center;
+}
+.sec4_2 p{
+    text-align: center;
+}
+.sec4_2 img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+/*---------------------------------------*/
+.section5{
+    background-color: rgba(242, 242, 242, 0.146);
+     width: 100%; 
+     height: 600px;
+   margin-bottom: 20px;
+    
+}
+.sec5{
+    width: 90%;
+    margin: auto;
+
+}
+.sec5_1{
+    float: left;
+    width: 45%;
+    padding:70px 50;
+}
+.sec5_1_2{
+    font-size: 30px;
+    
+}
+.sec5_1_3{
+    line-height: 50px;
+    font-size: 20px;
+}
+li img{
+    width: 20px;
+}
+.sec5_2{
+    
+
+    padding:70px 50;
+}
+i{
+    background-color: rgba(42, 27, 27, 0.822);
+    border-radius: 50%;
+    padding-top: 4px;
+}
+/*--------------------------------------*/
+.section6{
+    width: 100%;
+    background-color:#403d38;
+    
+}
+.sec6{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+} 
+.sec6_1{
+    width: 25%;
+    float: left;
+}
+.sec6_1 h4{
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+.sec6_1 p{
+    color: #969696;
+    padding: 15px;
+}
+.sec6_1 ul{
+    list-style-type: none;
+}
+.sec6_1 ul li{
+    padding:10px 0 ;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #969696;
+}
+.clr{
+    clear: both;
+}
+/*---------------------------------------------*/
+.section7{
+    background-color: #353330;
+    overflow: auto;
+}
+.sec7_1 i img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 3px;
+}
+.sec7{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+/*-------------------------------------------*/
+
+
+
+
